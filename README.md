@@ -1,4 +1,3 @@
-CLEMENT ANDREW ARON   BSC. ITS 2    14322045/T.24
 # School System Website
 
 A role-based dashboard website built with PHP, HTML, CSS, and JavaScript.
@@ -36,5 +35,9 @@ php -S localhost:8000
 ```
 
 3. Open `http://localhost:8000` in your browser.
-   
-@kadefue
+
+## Notes
+
+- This version uses PHP sessions to track logged-in users.
+- Each login opens a dashboard tailored to the user's role.
+- The system uses fixed credentials in `users.php`; later you can replace this with a database.
